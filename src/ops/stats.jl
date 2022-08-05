@@ -684,7 +684,7 @@ form:
 
 ```math
 \\begin{aligned}
-s_t &= s_{t-1} + (1 - \\alpha) x_t \\\\
+s_t &= s_{t-1} + (1 - \\alpha) s_t \\\\
 m_t &= \\frac{\\alpha s_t}{1 - (1 - \\alpha)^t}.
 \\end{aligned}
 ```
